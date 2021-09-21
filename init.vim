@@ -1,0 +1,11 @@
+source $HOME/.config/nvim/vim-plug/plugins.vim 
+source $HOME/.config/nvim/themes/tokyonight.vim
+source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/general/settings.vim
+source $HOME/.config/nvim/keys/mappings.vim
+source $HOME/.config/nvim/plugins/airline/airline.vim
+source $HOME/.config/nvim/plugins/rnvimr/rnvimr.vim
+source $HOME/.config/nvim/plugins/telescope/telescope.vim
+source $HOME/.config/nvim/plugins/vim-move/vim-move.vim
+source $HOME/.config/nvim/plugins/nerdtree/nerdtree.vim
+source $HOME/.config/nvim/plugins/indentline/indent.vim
