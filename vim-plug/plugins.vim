@@ -7,11 +7,17 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     " Solidity Syntax
-    Plug 'tomlion/vim-solidity'
+    Plug 'TovarishFin/vim-solidity'
     " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+    "Plug 'sheerun/vim-polyglot'
+    "Word highlight
+    Plug 'dominikduda/vim_current_word'
+    " HTML 5
+    Plug 'othree/html5.vim'
+    " Typescript Syntax
+    Plug 'herringtondarkholme/yats.vim'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
@@ -21,6 +27,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'folke/tokyonight.nvim'
     Plug 'wojciechkepka/bogster'
     Plug 'morhetz/gruvbox'
+    Plug 'mhartington/oceanic-next'
+    Plug 'joshdick/onedark.vim'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Telescope
