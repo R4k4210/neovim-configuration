@@ -56,6 +56,7 @@ nnoremap <Leader>O O<Esc>^Da
 "Git mappings
 nnoremap <Leader>gs :Git status<CR>
 nnoremap <Leader>gb :Git blame<CR>
-nnoremap <Leader>gp :Git push<CR>
+nnoremap <Leader>gp :Git -c push.default=current push<CR>
 nnoremap <Leader>ga :Git add .<CR><CR>
 nnoremap <Leader>gc :Git commit<CR>
+nnoremap <Leader>gl :Git pull<CR>
